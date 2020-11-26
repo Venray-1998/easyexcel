@@ -1,0 +1,10 @@
+17:10:42.462 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting EasyexcelApplication using Java 1.8.0_261 on LAPTOP-JKCJIRCF with PID 10320 (D:\WorkSoftware\workplace\easyexcel\target\classes started by fuwenrui in D:\WorkSoftware\workplace\easyexcel)
+17:10:42.471 [restartedMain] INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:660) - No active profile set, falling back to default profiles: default
+17:10:43.549 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+17:10:43.550 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+17:10:43.550 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.39]
+17:10:43.627 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+17:10:43.764 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+17:10:44.219 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003) - {dataSource-1} inited
+17:10:44.714 [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+17:10:44.743 [restartedMain] INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started EasyexcelApplication in 2.683 seconds (JVM running for 3.827)

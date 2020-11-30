@@ -14,6 +14,8 @@ import com.fwr.easyexcel.entity.BossReadExcel;
 import com.fwr.easyexcel.entity.BossWriteExcel;
 import com.fwr.easyexcel.service.EasyExcelService;
 import com.fwr.easyexcel.util.ExcelUtil;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -38,6 +40,7 @@ import java.util.stream.Collectors;
  * @author fwr
  * @date 2020-11-24
  */
+@Api(tags = "首页模块")
 @RestController
 @RequestMapping("")
 public class EasyExcelController {
@@ -47,6 +50,7 @@ public class EasyExcelController {
     @Autowired
     private BossMapper bossMapper;
 
+    @ApiOperation(value = "向客人问好")
     @PostMapping("/upload")
     public void upload(MultipartFile file) throws IOException {
         List<BossReadExcel> bossReadExcels = ExcelUtil.readExcel(file, BossReadExcel.class);
